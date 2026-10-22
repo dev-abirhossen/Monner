@@ -4,12 +4,14 @@
 /* ========font-family start here============== */
 @theme {
   --font-Monts: "Montserrat", sans-serif; 
+  --font-lato: "Lato", sans-serif; 
 }
 /* ========font-family end here============== */
 
 /* =============color start here ========== */
 @theme{
     --color-blue: #5F5FFF;
+    --color-blue2: #141778;
     --color-black1: #000619;
 }
 /* =============color end here ========== */
