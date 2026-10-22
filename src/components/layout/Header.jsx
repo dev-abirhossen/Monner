@@ -1,8 +1,13 @@
 import React from 'react'
+import Container from '../common/Container'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <nav>
+      <Container>
+        
+      </Container>
+    </nav>
   )
 }
 
