@@ -28,5 +28,5 @@ export const HomeData = [
         id:5,
         label:"Contact Us",
         url:"/contact"
-    },
+    }
 ]

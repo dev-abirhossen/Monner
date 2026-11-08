@@ -8,14 +8,15 @@ import { NavLink } from 'react-router-dom'
 
 const ErrorPage = () => {
   return (
-    <section className='relative h-screen w-full px-20 py-5'>
-        <Image src={errorBg} alt={"img"} />
-        <Image className={"absolute left-[48%] top-[30%] "} src={errorBg2} alt='img'/>
-        <div className='absolute left-[55%] top-[31%] text-center'>
-            <h2 className='text-blue font-Monts font-bold text-[120px]'>404</h2>
+    <section className='relative h-screen lg:w-full px-20 py-5 flex flex-col justify-center'>
+        <Image className={"hidden lg:block"} src={errorBg} alt={"img"} />
+        <Image className={"absolute lg:left-[48%] lg:top-[15%] xl:top-[20%] top-[30%] hidden lg:block"} src={errorBg2} alt='img'/>
+        <div className='lg:absolute lg:left-[60%] xl:left-[55%] lg:top-[23%] xl:top-[29%] top-[36%] text-center '>
+            <h2 className='text-blue font-Monts font-bold text-[120px] leading-none'>404</h2>
             <Paragraph className={"text-base font-bold font-Monts text-black1 mb-4.5"} text={"Sorry, Page not Found"}/>
             <NavLink to={"/"}>
-            <PrimaryBtn className={"bg-blue text-white"} text={"Back to Home Page"}/></NavLink>
+            <PrimaryBtn className={"bg-blue text-white"} text={"Back to Home Page"}/>
+            </NavLink>
         </div>
     </section>
   )
