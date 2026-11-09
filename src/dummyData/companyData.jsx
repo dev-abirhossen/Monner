@@ -8,33 +8,33 @@ export const companyData = [
         url:"/about"
     },
     {
-        id:0,
+        id:1,
         icon: <IoIosArrowForward />,
         label:"Our Services",
-        url:"/about"
+        url:"/service"
     },
     {
-        id:0,
+        id:2,
         icon: <IoIosArrowForward />,
         label:"Prices Plans",
-        url:"/about"
+        url:"/price"
     },
     {
-        id:0,
+        id:3,
         icon: <IoIosArrowForward />,
         label:"Blog",
-        url:"/about"
+        url:"/blog"
     },
     {
-        id:0,
+        id:4,
         icon: <IoIosArrowForward />,
         label:"FAQ",
-        url:"/about"
+        url:"/faq"
     },
     {
-        id:0,
+        id:5,
         icon: <IoIosArrowForward />,
         label:"Contact Us",
-        url:"/about"
+        url:"/contact"
     },
 ]
