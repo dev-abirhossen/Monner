@@ -11,8 +11,8 @@ const Questions = () => {
             <section>
                 <Breadcrumb label={"FAQ"} rootPage={"Home"}/>
                 <Container>
-                    <div>
-                        
+                    <div className='text-center mt-26.5'>
+                        <h3 className="font-bold font-Monts text-black1 text-[34px] ">Frequently Asked Questions </h3>
                     </div>
                 </Container>
             </section>
