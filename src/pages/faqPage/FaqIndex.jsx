@@ -5,8 +5,7 @@ import FaqLayout from '../../components/layout/FaqLayout'
 const FaqIndex = () => {
   return (
     <>
-     <Questions/>
-     <FaqLayout/>
+      <FaqLayout />
     </>
   )
 }
