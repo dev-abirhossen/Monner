@@ -7,28 +7,30 @@ import FaqIndex from "./pages/faqPage/FaqIndex"
 import FaqLayout from "./components/layout/FaqLayout"
 import SequrityIndex from "./pages/faqPage/faqSequrityPage/SequrityIndex"
 import BeginnerIndex from "./pages/faqPage/beginnerPage/BeginnerIndex"
+import ContactIndex from "./pages/contactPage/ContactIndex"
 
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-      <Route path="*" element={<ErrorPage/>}/>
-      <Route element={<RootLayout/>}>
-        <Route path="/" element={<HomeIndex/>}/>
-        <Route path="about" element={<AboutIndex/>}/>
-          <Route path="/faq" element={<FaqIndex/>}/>
-        <Route element={<FaqLayout/>}>
-          <Route path="/sequrity" element={<SequrityIndex/>}/>
-          <Route path="/beginner" element={<BeginnerIndex/>}/>
+        <Route path="*" element={<ErrorPage />} />
+        <Route element={<RootLayout />}>
+          <Route path="/" element={<HomeIndex />} />
+          <Route path="about" element={<AboutIndex />} />
+          <Route path="/faq" element={<FaqIndex />} />
+          <Route path="/contact" element={<ContactIndex/>}/>
+          <Route element={<FaqLayout />}>
+            <Route path="/sequrity" element={<SequrityIndex />} />
+            <Route path="/beginner" element={<BeginnerIndex />} />
+          </Route>
         </Route>
-      </Route>
       </>
     )
   )
 
 
   return (
-   <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   )
 }
 
