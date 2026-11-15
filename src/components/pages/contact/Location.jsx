@@ -3,6 +3,7 @@ import Container from '../../common/Container'
 import Breadcrumb from '../../common/Breadcrumb'
 import Paragraph from '../../utils/Paragraph';
 import { locationData } from '../../../dummyData/locationData';
+import Input from '../../utils/Input';
 
 
 const Location = () => {
@@ -20,6 +21,16 @@ const Location = () => {
               <Paragraph className={"font-lato font-bold text-gray2 text-base leading-6.5"} text={item.altContact} />
             </div>
             ))}
+          </div>
+        </div>
+        <div className='flex justify-center mt-18 '>
+          <div className='max-w-181.25 text-center'>
+            <h4 className='font-bold font-Monts text-[34px] text-black1 '>We are ready to help grow your idea</h4>
+            <Paragraph className={"font-lato font-normal text-base text-gray2 leading6.5"} text={"Ut feugiat dictum consequat. Aenean varius, augue malesuada eleifend faucibus"}/>
+            <div>
+              <Input className={"py-2.5 px-5 "} type={"text"} placeholder={"Your Name"}/>
+              <Input className={"py-2.5 px-5 "} type={"text"} placeholder={"Your Name"}/>
+            </div>
           </div>
         </div>
       </Container>
