@@ -26,11 +26,14 @@
   --color-bluebiolate: #550096;
   --color-gray1: #AEADAD;
   --color-gray2: #727272;
+  --color-gray3: #C8C8C8;
 
   --color-black1: #000619;
   --color-pink1: #C9B5E5;
-
-  
   /* =============color end here ========== */
+  /* =============Gredient color start =========== */
+    --color-redToOrange: #243c5a; 
+
+  /* =============Gredient color end =========== */
 
 }
