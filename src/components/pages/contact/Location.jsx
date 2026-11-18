@@ -40,6 +40,8 @@ const Location = () => {
     }
     if (!formData.phone.trim()) {
       validationError.phone = "Please Enter Your Phone Number"
+    }else if(formData.phone.length < 10){
+      validationError.phone = "Please Enter a Valid Phone Number"
     }
     return validationError
   }
