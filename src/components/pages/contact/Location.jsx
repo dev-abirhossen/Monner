@@ -24,6 +24,7 @@ const Location = () => {
     seterror((prevData) => ({
       ...prevData, [name]: ""
     }))
+    console.log(name,value)
   }
   const validation = () => {
     const validationError = {}
